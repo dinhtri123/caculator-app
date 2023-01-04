@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caculator App</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mode">
+        <div class="button-mode light active-mode">
+          <ion-icon name="sunny-outline" class="icon-mode"></ion-icon>
+        </div>
+        <div class="button-mode dark">
+          <ion-icon name="moon-outline" class="icon-mode"></ion-icon>
+        </div>
+      </div>
+      <div class="main">
+        <div class="display">
+          <div class="show"></div>
+          <div class="result"></div>
+        </div>
+        <div class="button">
+          <div>
+            <button class="btn">C</button>
+          </div>
+          <div>
+            <button class="btn calculator" value="%">%</button>
+          </div>
+          <div>
+            <button class="close">
+              <i class="fa-regular fa-circle-xmark"></i>
+            </button>
+          </div>
+          <div>
+            <button value="+">+</button>
+          </div>
+          <div>
+            <button value="7">7</button>
+          </div>
+          <div>
+            <button value="8">8</button>
+          </div>
+          <div>
+            <button value="9">9</button>
+          </div>
+          <div>
+            <button value="-">-</button>
+          </div>
+          <div>
+            <button value="4">4</button>
+          </div>
+          <div>
+            <button value="5">5</button>
+          </div>
+          <div>
+            <button value="6">6</button>
+          </div>
+          <div>
+            <button value="*">*</button>
+          </div>
+          <div>
+            <button value="1">1</button>
+          </div>
+          <div>
+            <button value="2">2</button>
+          </div>
+          <div>
+            <button value="3">3</button>
+          </div>
+          <div>
+            <button value="/">/</button>
+          </div>
+          <div>
+            <button><ion-icon name="reload-outline"></ion-icon></button>
+          </div>
+          <div>
+            <button value="0">0</button>
+          </div>
+          <div>
+            <button>
+              <i class="fa-solid fa-circle"></i>
+            </button>
+          </div>
+          <div>
+            <button value="">
+              <i class="fa-regular fa-equals"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
