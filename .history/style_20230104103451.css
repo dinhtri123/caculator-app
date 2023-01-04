@@ -85,24 +85,8 @@ body {
   padding: 0px 30px;
   overflow: auto;
 }
-::-webkit-scrollbar {
-  width: 0px;
-  height:0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: transparent;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+.display::-webkit-scrollbar {
+  width: 10px;
 }
 .show {
   font-size: 20px;

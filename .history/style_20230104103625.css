@@ -86,23 +86,22 @@ body {
   overflow: auto;
 }
 ::-webkit-scrollbar {
-  width: 0px;
-  height:0px;
+  width: px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+  background: #555;
 }
 .show {
   font-size: 20px;

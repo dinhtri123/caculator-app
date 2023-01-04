@@ -86,8 +86,7 @@ body {
   overflow: auto;
 }
 ::-webkit-scrollbar {
-  width: 0px;
-  height:0px;
+  width: 2px;
 }
 
 /* Track */
@@ -102,7 +101,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+  background: #555;
 }
 .show {
   font-size: 20px;
