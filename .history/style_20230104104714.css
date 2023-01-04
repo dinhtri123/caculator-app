@@ -82,10 +82,11 @@ body {
   justify-content: end;
   align-items: flex-end;
   padding: 0px 30px;
+  
 }
 ::-webkit-scrollbar {
   width: 0px;
-  height: 0px;
+  height:0px;
 }
 
 /* Track */
@@ -108,15 +109,11 @@ body {
   letter-spacing: 1.5px;
   display: flex;
   flex-wrap: wrap;
-  overflow: auto;
 }
 .result {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: auto;
 }
 .caculator {
   width: 100%;
